@@ -1,0 +1,1 @@
+export const filterBy = (items:Array<any>, key:string, value:any) => items.filter((i) => i[key].toLowerCase().includes(value.toLowerCase()))
